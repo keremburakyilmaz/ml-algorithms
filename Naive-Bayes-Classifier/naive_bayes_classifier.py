@@ -4,7 +4,6 @@ import pandas as pd
 def safelog(x):
     return(np.log(x + 1e-300))
 
-
 X_train = np.genfromtxt("pendigits_sta16_train.csv", delimiter = ",", dtype = int)
 y_train = np.genfromtxt("pendigits_label_train.csv", delimiter = ",", dtype = int)
 X_test = np.genfromtxt("pendigits_sta16_test.csv", delimiter = ",", dtype = int)
