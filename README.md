@@ -5,13 +5,14 @@ This repository is the collection of codes I have written for my courses on mach
 It includes my codes of topics on:
 
 - Naive Bayes Classifier
-- Parametric Methods
+- Parametric Classifier
+- Parametric Regression
 - Linear Discrimination
 - Discrimination by Regression
 - Multilayer Perceptron
-- Non-parametric Methods
+- Non-parametric Classifier
 - Non-parametric Regression
-- Decision Trees
+- Decision Trees Classifier
 - Decision Tree Regression
 - Kernel Machines
 - Outlier Detection
