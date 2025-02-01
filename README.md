@@ -14,10 +14,9 @@ It includes my codes of topics on:
 - Non-parametric Regression
 - Decision Trees Classifier
 - Decision Tree Regression
-- Kernel Machines
+- Kernel Machines Classifier
 - Kernel Machines Regression
 - Outlier Detection
-- Kernel Regression
 - Dimensionality Reduction
 - Clustering
 - Expectation-Maximization Clustering
