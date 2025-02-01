@@ -21,12 +21,6 @@ def gradient_w0(y_truth, y_predicted):
 eta = 0.01
 epsilon = 0.001
 
-# randomly initalize w and w0
-np.random.seed(421)
-w = np.random.uniform(low = -0.01, high = 0.01, size = (D, 1))
-w0 = np.random.uniform(low = -0.01, high = 0.01, size = 1)
-# we do not give 0, 0 because it would be stuck, we need to give it a nudge
-
 
 np.random.seed(421)
 # mean parameters
@@ -96,6 +90,13 @@ D = data_set.shape[1] - 1
 # get X and y values
 X = data_set[:, 0:D]
 y_truth = data_set[:, D:(D + 1)].astype(int)
+
+
+# randomly initalize w and w0
+np.random.seed(421)
+w = np.random.uniform(low = -0.01, high = 0.01, size = (D, 1))
+w0 = np.random.uniform(low = -0.01, high = 0.01, size = 1)
+# we do not give 0, 0 because it would be stuck, we need to give it a nudge
 
 
 # learn w and w0 using gradient descent
