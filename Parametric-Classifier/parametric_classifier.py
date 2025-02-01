@@ -67,7 +67,7 @@ plt.show()
 
 
 # read data into memory
-data_set = np.genfromtxt(fname = "lab01_data_set.csv", delimiter = ",")
+data_set = np.genfromtxt(fname = "data_set.csv", delimiter = ",")
 
 # get x and y values
 x = data_set[:, 0]
