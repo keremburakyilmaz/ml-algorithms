@@ -15,6 +15,7 @@ It includes my codes of topics on:
 - Decision Trees Classifier
 - Decision Tree Regression
 - Kernel Machines
+- Kernel Machines Regression
 - Outlier Detection
 - Kernel Regression
 - Dimensionality Reduction
