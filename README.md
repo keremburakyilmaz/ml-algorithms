@@ -21,4 +21,5 @@ It includes my codes of topics on:
 - Clustering
 - Expectation-Maximization Clustering
 - Area Under ROC Curve Analysis
-- Combining Multiple Learners
+- Combining Multiple Learners - Decision Trees
+- Combining Multiple Learners - kNN
